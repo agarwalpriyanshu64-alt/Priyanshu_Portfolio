@@ -7,15 +7,15 @@ import { AboutPage } from './pages/AboutPage';
 import { ProjectsPage } from './pages/ProjectsPage';
 import { Footer } from './components/Footer';
 import { CustomCursor } from './components/CustomCursor';
-import { Background } from './components/Background';
+import { NeonWaveBackground } from './components/NeonWaveBackground';
 
 const AppContent = () => {
   const location = useLocation();
 
   return (
-    <div className="relative min-h-screen bg-background selection:bg-accent selection:text-black">
+    <div className="relative min-h-screen bg-transparent selection:bg-accent selection:text-black">
       {/* Background System */}
-      <Background />
+      <NeonWaveBackground />
       
       {/* Grain Overlay */}
       <div className="grain" />

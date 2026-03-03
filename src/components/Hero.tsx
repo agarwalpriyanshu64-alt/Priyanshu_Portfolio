@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden px-6">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/60 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/40 to-transparent" />
       </div>
 
       <div className="relative z-10 text-center">
