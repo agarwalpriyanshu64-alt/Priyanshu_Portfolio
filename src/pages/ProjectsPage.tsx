@@ -7,7 +7,7 @@ const projects = [
   { 
     title: "YouTube Fanfest India",
     category: "Strategy Pivot",
-    image: "https://i.ibb.co/DHGV7JkH/Whats-App-Image-2025-09-13-at-2-18-16-PM.jpg",
+    image: "https://i.ibb.co/JjKpFXfN/Screenshot-2026-03-03-11-19-28-PM.png",
     description: "Orchestrated the strategic shift of YouTube Fanfest from a viewer-first to a creator-first event model, grounding audience strategy in deep creator segmentation and engagement intent to redefine the initiative's core value",
     hoverText: "Legacy: Viewer-First // Current: Creator-Led"
   },
