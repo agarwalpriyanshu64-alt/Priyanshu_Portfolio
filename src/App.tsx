@@ -9,11 +9,22 @@ import { Footer } from './components/Footer';
 import { CustomCursor } from './components/CustomCursor';
 import { NeonWaveBackground } from './components/NeonWaveBackground';
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 const AppContent = () => {
   const location = useLocation();
 
   return (
     <div className="relative min-h-screen bg-transparent selection:bg-accent selection:text-black">
+      <ScrollToTop />
       {/* Background System */}
       <NeonWaveBackground />
       

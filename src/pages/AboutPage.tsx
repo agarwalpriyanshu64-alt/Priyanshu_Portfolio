@@ -35,18 +35,18 @@ export const AboutPage = () => {
   const interests = [
     {
       icon: Zap,
-      title: "High-Velocity Systems",
-      description: "Analyzing the split-second decisions and technical precision of Formula 1. It's where data-driven strategy meets the absolute limit of physics."
+      title: "F1 Enthusiast",
+      description: "I’m a massive F1 fan. (Fun fact: this portfolio template is actually inspired by Lando Norris' website!). There’s nothing quite like watching teamwork, data-driven strategy, and pure physics collide at 200 mph."
     },
     {
       icon: Scissors,
-      title: "Analog Archiving",
+      title: "Junk Journaling",
       description: "Deconstructing the digital world through tactile junk journaling. A physical repository of textures, tickets, and transient moments."
     },
     {
       icon: Compass,
-      title: "Experiential Curation",
-      description: "Treating life as a series of high-fidelity data points. From underground gigs to remote landscapes, I'm always looking for the next core memory."
+      title: "Chasing Experiences",
+      description: "Curating a life of meaningful experiences. Whether it's discovering live music or exploring off the grid, I focus on collecting moments that actually matter."
     }
   ];
 

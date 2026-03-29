@@ -4,7 +4,7 @@ import { ArrowUpRight } from 'lucide-react';
 
 const logs = [
   { label: "Creators Reached", value: "3000+ Creators", description: "Curated partnerships synchronized for maximum brand resonance." },
-  { label: "Time saved", value: "80+ Hours", description: "AI-integrated workflows engineered to eliminate friction and cost." },
+  { label: "Time saved", value: "200+ Hours", description: "AI-integrated workflows engineered to eliminate friction and cost." },
   { label: "Cost Savings", value: "$6K", description: "Cost Savings through AI efficiency." },
 ];
 
@@ -14,7 +14,7 @@ export const Log = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex items-end justify-between mb-8">
           <h2 className="font-display text-5xl md:text-7xl uppercase tracking-tighter leading-none">
-            Campaign <span className="text-outline-accent">telemetry</span>
+            The <span className="text-outline-accent">Impact</span>
           </h2>
         </div>
 
